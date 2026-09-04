@@ -3,4 +3,4 @@ function describeValue(value){
     const status= value? "truthy":"falsy"
     return `${type} | ${status}`
 }
-console.log(describeValue(25))
+console.log(describeValue("*"))
